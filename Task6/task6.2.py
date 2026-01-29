@@ -14,5 +14,6 @@ def die_roll_six():
         if roll == user_input:
             breakpoint()
             break
+    return
 
 die_roll_six()

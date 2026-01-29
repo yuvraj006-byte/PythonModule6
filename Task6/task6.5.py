@@ -8,5 +8,5 @@ def main():
         print("The list is: ", even)
     else:
         print(None)
-
+    return
 main()

@@ -7,7 +7,5 @@ def gal_lit():
     lit = american_gas * 3.78541
     return print(lit)
 
-
-
 gal_lit()
 

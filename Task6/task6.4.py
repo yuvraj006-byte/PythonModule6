@@ -6,5 +6,6 @@ def main():
     user_list = list(map(int, user_input.split()))
     result = num_sum(user_list)
     print("The sum is: ", result)
+    return
 
 main()

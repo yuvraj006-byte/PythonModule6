@@ -16,5 +16,6 @@ def main():
         print("The price of second pizza is better value for money!")
     else:
         print("Both pizza cost the same!")
+    return
 
 main()
