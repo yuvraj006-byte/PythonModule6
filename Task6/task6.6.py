@@ -22,9 +22,9 @@ unit_price2 = price2/area_func_two()
 def main():
     price(unit_price1, unit_price2)
 
-    if unit_price1 > unit_price2:
+    if unit_price1 < unit_price2:
         print("The price of first pizza is better value for money!")
-    elif unit_price1 < unit_price2:
+    elif unit_price1 > unit_price2:
         print("The price of second pizza is better value for money!")
     else:
         print("Both pizza cost the same!")
