@@ -17,8 +17,8 @@ def price(a,b):
 price1 = int(input("Enter the first price: "))
 price2 = int(input("Enter the second price: "))
 
-unit_price1 = area_func_one()/price1
-unit_price2 = area_func_one()/price2
+unit_price1 = price1/area_func_one()
+unit_price2 = price2/area_func_two()
 def main():
     price(unit_price1, unit_price2)
 
